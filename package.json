@@ -1,7 +1,13 @@
 {
   "name": "eslint-config-coldsurfers",
   "version": "1.0.0",
+  "description": "eslint config for coldsurfers team.",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./nodejs-typescript": "./index.js",
+    "./package.json": "./package.json"
+  },
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.53.0",
