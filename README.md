@@ -7,10 +7,12 @@ npx install-peerdeps --dev eslint-config-coldsurfers
 
 # ESlint Config Setting
 
+`.eslintrc`
+
 ```json
 {
-  'extends': [
-    'coldsurfers' // or 'coldsurfers/nodejs-typescript'
+  "extends": [
+    "coldsurfers" // or 'coldsurfers/nodejs-typescript'
   ]
 }
 ```
