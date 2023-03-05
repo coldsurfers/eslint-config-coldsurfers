@@ -18,3 +18,16 @@ npx install-peerdeps --dev eslint-config-coldsurfers
 ```
 
 Basically, extending just `coldsurfers` is for nodejs-typescript eslint configuration.
+
+# Prettier Config Setting
+
+`.prettierrc.json`
+
+```json
+{
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+}
+```
