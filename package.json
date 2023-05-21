@@ -1,20 +1,20 @@
 {
   "name": "eslint-config-coldsurfers",
-  "version": "1.1.1",
-  "author": {
-    "email": "imcoldsurf@gmail.com",
-    "name": "coldsurfers"
-  },
+  "version": "1.1.2",
   "description": "eslint config for coldsurfers team.",
-  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "coldsurfers",
+    "email": "imcoldsurf@gmail.com"
+  },
   "exports": {
     ".": "./index.js",
     "./nodejs-typescript": "./index.js",
     "./react-typescript": "./index.react-typescript.js",
     "./package.json": "./package.json"
   },
-  "license": "MIT",
-  "devDependencies": {
+  "main": "index.js",
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "eslint": "^7.32.0 || ^8.2.0",
@@ -26,7 +26,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "2.8.1"
   },
-  "peerDependencies": {
+  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "eslint": "^7.32.0 || ^8.2.0",
