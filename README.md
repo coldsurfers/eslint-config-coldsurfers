@@ -1,7 +1,7 @@
 # Install
 
 ```bash
-npm i -D eslint-config-coldsurfers # or yarn install --dev eslint-config-coldsurfers
+npm i -D eslint-config-coldsurfers # or yarn add --dev eslint-config-coldsurfers
 npx install-peerdeps --dev eslint-config-coldsurfers
 ```
 
